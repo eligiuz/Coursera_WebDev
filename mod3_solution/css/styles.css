@@ -1,0 +1,32 @@
+#header-nav {
+  background-color: #999;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand h1 {
+	background-color: #999;
+  color: #000;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+#chicken, #beef, #sushi {
+	border: 1px solid #000;
+	background-color: #999;
+	margin: 10px;
+	padding: 5px;
+}
+
+li {
+	border-bottom: 2px solid #000;
+	color: black;
+}
+
+@media (max-width: 767px) {
+	#collapsable-nav {
+	background-color: #fff;
+}
+}
